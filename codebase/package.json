@@ -1,9 +1,9 @@
 {
-  "name": "react-app-template-please-update",
+  "name": "five-star-rating",
   "version": "1.0.0",
-  "description": "Edit this description for your application",
+  "description": "ReactJS rating component",
   "main": "index.js",
-  "repository": "https://github.com/JordanDChappell/react-app-template",
+  "repository": "https://github.com/JordanDChappell/five-star-rating",
   "author": "Jordan Chappell",
   "license": "MIT",
   "private": false,
