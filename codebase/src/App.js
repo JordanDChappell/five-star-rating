@@ -1,14 +1,22 @@
 import React from 'react';
+import styled from 'styled-components';
 
+/* Components */
+import Stars from './Components/Stars/Stars';
+
+/* Style */
 import './App.css';
+
+/* Styled Components */
+const Heading = styled.h2`
+  font-weight: bold;
+`;
 
 const App = () => (
   <div className="app">
     <header>
-      <h1 className="heading">React App Template</h1>
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
+      <Heading>Rate my website!</Heading>
+      <Stars />
     </header>
   </div>
 );
